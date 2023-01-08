@@ -1,0 +1,27 @@
+.normalLink {
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 22px;
+    margin-bottom: 4px;
+    color: #222;
+}
+.normalLink:hover {
+    color: #22b8cf;
+}
+.normalLink:after {
+    content: '|';
+    position: absolute;
+    display: inline-block;
+    padding: 0 8px;
+    color: #ccc;
+}
+.normalLink:last-child::after {
+    display: none;
+}
+.active {
+    border-bottom: 2px solid #22b8cf;
+    color: #22b8cf;
+}
+

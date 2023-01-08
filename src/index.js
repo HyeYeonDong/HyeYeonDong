@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import './index.css';
-import Meta from './Meta';
-import App from './App';
-import Error from './Error';
+import './global/index.css';
+import Meta from './global/Meta';
+import App from './global/App';
+import Error from './global/Error';
 import SimpleSpa from './list/02-simpleSpa';
 import Jsx from './list/03-jsx';
 import Props from './list/04-props'
