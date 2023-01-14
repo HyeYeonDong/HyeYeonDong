@@ -23,6 +23,7 @@ const StyleSheet = () => {
 
     return (
         <div>
+            <h1 style={myStyle}>05-stylesheet</h1>
             <nav>
                 <NavLink to="inlineCss" className='normalLink'>InlineCss</NavLink>
                 <NavLink to="cssClass" className='normalLink'>CssClass</NavLink>
@@ -38,7 +39,7 @@ const StyleSheet = () => {
                 <Route path="/cssClass" element={<CssClass/>}/>
                 <Route path="/cssModule" element={<CssModule/>}/>
                 <Route path="/inlineCss" element={<InlineCss/>}/>
-                <Route path="/news" element={<News/>}/>
+                <Route path="/news/*" element={<News/>}/>
                 <Route path="/responsive" element={<Responsive/>}/>
                 <Route path="/scss" element={<Scss/>}/>
                 <Route path="/scssModule" element={<ScssModule/>}/>
