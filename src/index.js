@@ -9,6 +9,7 @@ import SimpleSpa from './list/02-simpleSpa';
 import Jsx from './list/03-jsx';
 import Props from './list/04-props'
 import StyleSheet from './list/05-style-sheet'
+import Layout from './list/06-layout-demo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
 			<Route exact path='/jsx/*' element={<Jsx/>}/>
 			<Route exact path='/props/*' element={<Props/>}/>
 			<Route exact path='/styleSheet/*' element={<StyleSheet/>} />
+			<Route exact path='/layout/*' element={<Layout/>} />
 
 			{/* 에러페이지 : 에러 페이지는 항장 제일 아랫부분에 위치해야 함 */}
 			<Route path='*' element={<Error/>}/>

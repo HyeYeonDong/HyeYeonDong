@@ -8,6 +8,7 @@ const Nav = () => {
             <li><Link to='/jsx'>03-Jsx</Link></li>
             <li><Link to='/props'>04-Props</Link></li>
             <li><Link to='/styleSheet'>05-Style Sheet</Link></li>
+            <li><Link to='/layout/*'>06-Layout demo</Link></li>
         </ul>
     )
 }
